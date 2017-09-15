@@ -1,4 +1,4 @@
-FROM freeipa/freeipa-builder:master-latest
+FROM stlaz/freeipa-builder:f27
 ENV container=docker LANG=en_US.utf8 LANGUAGE=en_US.utf8 LC_ALL=en_US.utf8
 
 RUN dnf copr enable -y @freeipa/freeipa-4-5 \
